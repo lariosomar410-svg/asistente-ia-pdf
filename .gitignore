@@ -1,0 +1,15 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Variables de entorno secretas (¡MUY IMPORTANTE!)
+.env
+
+# Archivos temporales de Python y Streamlit
+__pycache__/
+*.pyc
+temp_*
+
+# Archivos FAISS locales
+faiss_index/
